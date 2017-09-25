@@ -3,6 +3,7 @@ module Bling
 
     def initialize
       @api_url = 'https://bling.com.br/Api/v2/'
+      @api_key = 'b6aae1243645f9da1d559cc29e9d6b6b5d6388a6807a7f4ab8e6e4630c9db524648fffd5'
       @response_format = :json
     end
 
